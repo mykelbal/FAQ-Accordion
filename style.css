@@ -19,6 +19,7 @@ body{
   background: -ms-linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) fixed;
   background: -o-linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  position: fixed;
 }
 
 .info-card {
@@ -88,6 +89,7 @@ body{
 
 .text-box {
   width: 400px;
+  position: fixed;
 }
 
 h1 {
