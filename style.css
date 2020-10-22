@@ -87,7 +87,6 @@ body{
 }
 
 .text-box {
-  position: fixed;
   width: 400px;
 }
 
@@ -174,6 +173,10 @@ p {
 @media only screen and (max-width: 1000px) {
  .mask, .info-card {
    max-width: 90vw;
+ }
+
+ .text-box {
+   width: 300px;
  }
 
  .topic {
