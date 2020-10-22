@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
@@ -16,11 +18,15 @@
   </style>
 </head>
 <body>
-
-
-  <div class="info-card">
-    <img src="/images/illustration-box-desktop.svg" alt="illustration of a box" id="img-box">
-    <div class="column" id="img-column">
+  <img src="/images/illustration-woman-online-mobile.svg" alt="illustraltion of a woman using a computer" id="img-woman-mobile">
+    <div class="mask" id="mask">
+      <img src="/images/illustration-box-desktop.svg" alt="illustration of a box" id="img-box">
+      
+      <div class="info-card">
+        
+      <img src="/images/bg-pattern-desktop.svg" alt="background image" id="img-bg">
+    
+      <div class="column" id="img-column">
     
     
       <img src="/images/illustration-woman-online-desktop.svg" alt="illustration of a woman looking at a computer" id="img-woman">
@@ -28,38 +34,82 @@
     
 
     <div class="column" id="text-column">
+      <img src="/images/bg-pattern-mobile.svg" alt="mobile background image" id="mobile-bg-img">
+      
+     
       <div class="text-box">
       <h1>FAQ</h1>
-    </div>
+      <div class="topic" id="question1">
+        <a href="#question1" class="accordion-link">
+          How many team members can I invite?
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="answer">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+        </div>
+     </div>
+            
+      <hr>
 
+      <div class="topic" id="question2">
+        <a href="#question2" class="accordion-link">
+          What is the maximum file upload size?
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="answer">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+      </div>
+      
+      <hr>
+      
+      <div class="topic" id="question3">
+        <a href="#question3" class="accordion-link">
+          How do I reset my password?
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="answer">
+          <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="topic" id="question4">
+        <a href="#question4" class="accordion-link">
+          Can I cancel my subscription?
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="answer">
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+      </div>
+
+      <hr>
+      
+      <div class="topic" id="question5">
+        <a href="#question5" class="accordion-link">
+          Do you provide additional support?
+          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="answer">
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
     </div>
-    <div class="mask" id="mask"></div>
+    </div>
+    </div>
   </div>
-
-
-
-
-
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/mykelbal">Michael Ballantine</a>.
   </div>
 </body>
 </html>
